@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		433BD7721A8EF040008BACA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BD7711A8EF040008BACA5 /* main.m */; };
+		433BD7751A8EF040008BACA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BD7741A8EF040008BACA5 /* AppDelegate.m */; };
+		433BD7781A8EF040008BACA5 /* NBA_Trade_Machine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 433BD7761A8EF040008BACA5 /* NBA_Trade_Machine.xcdatamodeld */; };
+		433BD77B1A8EF040008BACA5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BD77A1A8EF040008BACA5 /* HomeViewController.m */; };
+		433BD77E1A8EF041008BACA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433BD77C1A8EF041008BACA5 /* Main.storyboard */; };
+		433BD7801A8EF041008BACA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433BD77F1A8EF041008BACA5 /* Images.xcassets */; };
+		433BD7831A8EF041008BACA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 433BD7811A8EF041008BACA5 /* LaunchScreen.xib */; };
+		433BD78F1A8EF041008BACA5 /* NBA_Trade_MachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BD78E1A8EF041008BACA5 /* NBA_Trade_MachineTests.m */; };
+		433BD79D1A8F01D0008BACA5 /* TeamSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BD79C1A8F01D0008BACA5 /* TeamSelectionViewController.m */; };
+		433BD7A21A8F0B16008BACA5 /* TeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 433BD7A11A8F0B16008BACA5 /* TeamCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		433BD7891A8EF041008BACA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 433BD7641A8EF040008BACA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 433BD76B1A8EF040008BACA5;
+			remoteInfo = NBA_Trade_Machine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		433BD76C1A8EF040008BACA5 /* NBA_Trade_Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBA_Trade_Machine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		433BD7701A8EF040008BACA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433BD7711A8EF040008BACA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		433BD7731A8EF040008BACA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		433BD7741A8EF040008BACA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		433BD7771A8EF040008BACA5 /* NBA_Trade_Machine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NBA_Trade_Machine.xcdatamodel; sourceTree = "<group>"; };
+		433BD7791A8EF040008BACA5 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		433BD77A1A8EF040008BACA5 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		433BD77D1A8EF041008BACA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		433BD77F1A8EF041008BACA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		433BD7821A8EF041008BACA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		433BD7881A8EF041008BACA5 /* NBA_Trade_MachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBA_Trade_MachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		433BD78D1A8EF041008BACA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433BD78E1A8EF041008BACA5 /* NBA_Trade_MachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBA_Trade_MachineTests.m; sourceTree = "<group>"; };
+		433BD79B1A8F01D0008BACA5 /* TeamSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamSelectionViewController.h; sourceTree = "<group>"; };
+		433BD79C1A8F01D0008BACA5 /* TeamSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamSelectionViewController.m; sourceTree = "<group>"; };
+		433BD7A11A8F0B16008BACA5 /* TeamCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		433BD7691A8EF040008BACA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433BD7851A8EF041008BACA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433BD7631A8EF040008BACA5 = {
+			isa = PBXGroup;
+			children = (
+				433BD76E1A8EF040008BACA5 /* NBA_Trade_Machine */,
+				433BD78B1A8EF041008BACA5 /* NBA_Trade_MachineTests */,
+				433BD76D1A8EF040008BACA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		433BD76D1A8EF040008BACA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				433BD76C1A8EF040008BACA5 /* NBA_Trade_Machine.app */,
+				433BD7881A8EF041008BACA5 /* NBA_Trade_MachineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433BD76E1A8EF040008BACA5 /* NBA_Trade_Machine */ = {
+			isa = PBXGroup;
+			children = (
+				433BD7731A8EF040008BACA5 /* AppDelegate.h */,
+				433BD7741A8EF040008BACA5 /* AppDelegate.m */,
+				433BD77C1A8EF041008BACA5 /* Main.storyboard */,
+				433BD77F1A8EF041008BACA5 /* Images.xcassets */,
+				433BD7761A8EF040008BACA5 /* NBA_Trade_Machine.xcdatamodeld */,
+				433BD79A1A8EF270008BACA5 /* Model */,
+				433BD7991A8EF26B008BACA5 /* View */,
+				433BD7981A8EF264008BACA5 /* Controller */,
+				433BD76F1A8EF040008BACA5 /* Supporting Files */,
+			);
+			path = NBA_Trade_Machine;
+			sourceTree = "<group>";
+		};
+		433BD76F1A8EF040008BACA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				433BD7701A8EF040008BACA5 /* Info.plist */,
+				433BD7711A8EF040008BACA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		433BD78B1A8EF041008BACA5 /* NBA_Trade_MachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				433BD78E1A8EF041008BACA5 /* NBA_Trade_MachineTests.m */,
+				433BD78C1A8EF041008BACA5 /* Supporting Files */,
+			);
+			path = NBA_Trade_MachineTests;
+			sourceTree = "<group>";
+		};
+		433BD78C1A8EF041008BACA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				433BD78D1A8EF041008BACA5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		433BD7981A8EF264008BACA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				433BD7791A8EF040008BACA5 /* HomeViewController.h */,
+				433BD77A1A8EF040008BACA5 /* HomeViewController.m */,
+				433BD79B1A8F01D0008BACA5 /* TeamSelectionViewController.h */,
+				433BD79C1A8F01D0008BACA5 /* TeamSelectionViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		433BD7991A8EF26B008BACA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				433BD7811A8EF041008BACA5 /* LaunchScreen.xib */,
+				433BD7A11A8F0B16008BACA5 /* TeamCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		433BD79A1A8EF270008BACA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		433BD76B1A8EF040008BACA5 /* NBA_Trade_Machine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433BD7921A8EF041008BACA5 /* Build configuration list for PBXNativeTarget "NBA_Trade_Machine" */;
+			buildPhases = (
+				433BD7681A8EF040008BACA5 /* Sources */,
+				433BD7691A8EF040008BACA5 /* Frameworks */,
+				433BD76A1A8EF040008BACA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBA_Trade_Machine;
+			productName = NBA_Trade_Machine;
+			productReference = 433BD76C1A8EF040008BACA5 /* NBA_Trade_Machine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		433BD7871A8EF041008BACA5 /* NBA_Trade_MachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433BD7951A8EF041008BACA5 /* Build configuration list for PBXNativeTarget "NBA_Trade_MachineTests" */;
+			buildPhases = (
+				433BD7841A8EF041008BACA5 /* Sources */,
+				433BD7851A8EF041008BACA5 /* Frameworks */,
+				433BD7861A8EF041008BACA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				433BD78A1A8EF041008BACA5 /* PBXTargetDependency */,
+			);
+			name = NBA_Trade_MachineTests;
+			productName = NBA_Trade_MachineTests;
+			productReference = 433BD7881A8EF041008BACA5 /* NBA_Trade_MachineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		433BD7641A8EF040008BACA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Josh Kahl";
+				TargetAttributes = {
+					433BD76B1A8EF040008BACA5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					433BD7871A8EF041008BACA5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 433BD76B1A8EF040008BACA5;
+					};
+				};
+			};
+			buildConfigurationList = 433BD7671A8EF040008BACA5 /* Build configuration list for PBXProject "NBA_Trade_Machine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 433BD7631A8EF040008BACA5;
+			productRefGroup = 433BD76D1A8EF040008BACA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				433BD76B1A8EF040008BACA5 /* NBA_Trade_Machine */,
+				433BD7871A8EF041008BACA5 /* NBA_Trade_MachineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		433BD76A1A8EF040008BACA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433BD7A21A8F0B16008BACA5 /* TeamCell.xib in Resources */,
+				433BD77E1A8EF041008BACA5 /* Main.storyboard in Resources */,
+				433BD7831A8EF041008BACA5 /* LaunchScreen.xib in Resources */,
+				433BD7801A8EF041008BACA5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433BD7861A8EF041008BACA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		433BD7681A8EF040008BACA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433BD79D1A8F01D0008BACA5 /* TeamSelectionViewController.m in Sources */,
+				433BD7751A8EF040008BACA5 /* AppDelegate.m in Sources */,
+				433BD7781A8EF040008BACA5 /* NBA_Trade_Machine.xcdatamodeld in Sources */,
+				433BD77B1A8EF040008BACA5 /* HomeViewController.m in Sources */,
+				433BD7721A8EF040008BACA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433BD7841A8EF041008BACA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433BD78F1A8EF041008BACA5 /* NBA_Trade_MachineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		433BD78A1A8EF041008BACA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 433BD76B1A8EF040008BACA5 /* NBA_Trade_Machine */;
+			targetProxy = 433BD7891A8EF041008BACA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		433BD77C1A8EF041008BACA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				433BD77D1A8EF041008BACA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		433BD7811A8EF041008BACA5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				433BD7821A8EF041008BACA5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		433BD7901A8EF041008BACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		433BD7911A8EF041008BACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		433BD7931A8EF041008BACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NBA_Trade_Machine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		433BD7941A8EF041008BACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NBA_Trade_Machine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		433BD7961A8EF041008BACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NBA_Trade_MachineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBA_Trade_Machine.app/NBA_Trade_Machine";
+			};
+			name = Debug;
+		};
+		433BD7971A8EF041008BACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NBA_Trade_MachineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBA_Trade_Machine.app/NBA_Trade_Machine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		433BD7671A8EF040008BACA5 /* Build configuration list for PBXProject "NBA_Trade_Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433BD7901A8EF041008BACA5 /* Debug */,
+				433BD7911A8EF041008BACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433BD7921A8EF041008BACA5 /* Build configuration list for PBXNativeTarget "NBA_Trade_Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433BD7931A8EF041008BACA5 /* Debug */,
+				433BD7941A8EF041008BACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433BD7951A8EF041008BACA5 /* Build configuration list for PBXNativeTarget "NBA_Trade_MachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433BD7961A8EF041008BACA5 /* Debug */,
+				433BD7971A8EF041008BACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		433BD7761A8EF040008BACA5 /* NBA_Trade_Machine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				433BD7771A8EF040008BACA5 /* NBA_Trade_Machine.xcdatamodel */,
+			);
+			currentVersion = 433BD7771A8EF040008BACA5 /* NBA_Trade_Machine.xcdatamodel */;
+			path = NBA_Trade_Machine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 433BD7641A8EF040008BACA5 /* Project object */;
+}
