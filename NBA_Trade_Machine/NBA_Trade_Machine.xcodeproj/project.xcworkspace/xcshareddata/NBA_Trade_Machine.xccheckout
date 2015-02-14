@@ -12,22 +12,34 @@
 	<dict>
 		<key>604510FABBA9BCA7261BCC8835E00EAC8DCB8D8B</key>
 		<string>https://github.com/jkahl7/VirtualGM.git</string>
+		<key>8327C35270E7A0397ADB3026A0762BA5BEDC4FF3</key>
+		<string>https://github.com/jkahl7/NBA_Trade_Machine.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>NBA_Trade_Machine/NBA_Trade_Machine.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>604510FABBA9BCA7261BCC8835E00EAC8DCB8D8B</key>
+		<string>../../../../VirtualGM</string>
+		<key>8327C35270E7A0397ADB3026A0762BA5BEDC4FF3</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/jkahl7/VirtualGM.git</string>
+	<string>https://github.com/jkahl7/NBA_Trade_Machine.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>604510FABBA9BCA7261BCC8835E00EAC8DCB8D8B</string>
+	<string>8327C35270E7A0397ADB3026A0762BA5BEDC4FF3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8327C35270E7A0397ADB3026A0762BA5BEDC4FF3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>nbaTradeMachine</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
