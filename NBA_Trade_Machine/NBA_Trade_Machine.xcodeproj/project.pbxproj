@@ -17,6 +17,10 @@
 		433BD78F1A8EF041008BACA5 /* NBA_Trade_MachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BD78E1A8EF041008BACA5 /* NBA_Trade_MachineTests.m */; };
 		433BD79D1A8F01D0008BACA5 /* TeamSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BD79C1A8F01D0008BACA5 /* TeamSelectionViewController.m */; };
 		433BD7A21A8F0B16008BACA5 /* TeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 433BD7A11A8F0B16008BACA5 /* TeamCell.xib */; };
+		43AC15441A91737F0071319A /* TradeSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC15431A91737F0071319A /* TradeSetupViewController.m */; };
+		43AC15471A91A0F80071319A /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC15461A91A0F80071319A /* MyModel.m */; };
+		43AC154A1A91A27B0071319A /* TeamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC15491A91A27B0071319A /* TeamView.m */; };
+		43AC154D1A91B6DD0071319A /* TeamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC154C1A91B6DD0071319A /* TeamCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,14 @@
 		433BD79B1A8F01D0008BACA5 /* TeamSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamSelectionViewController.h; sourceTree = "<group>"; };
 		433BD79C1A8F01D0008BACA5 /* TeamSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamSelectionViewController.m; sourceTree = "<group>"; };
 		433BD7A11A8F0B16008BACA5 /* TeamCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamCell.xib; sourceTree = "<group>"; };
+		43AC15421A91737F0071319A /* TradeSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeSetupViewController.h; sourceTree = "<group>"; };
+		43AC15431A91737F0071319A /* TradeSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeSetupViewController.m; sourceTree = "<group>"; };
+		43AC15451A91A0F80071319A /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		43AC15461A91A0F80071319A /* MyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
+		43AC15481A91A27B0071319A /* TeamView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamView.h; sourceTree = "<group>"; };
+		43AC15491A91A27B0071319A /* TeamView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamView.m; sourceTree = "<group>"; };
+		43AC154B1A91B6DD0071319A /* TeamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamCell.h; sourceTree = "<group>"; };
+		43AC154C1A91B6DD0071319A /* TeamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +146,8 @@
 				433BD77A1A8EF040008BACA5 /* HomeViewController.m */,
 				433BD79B1A8F01D0008BACA5 /* TeamSelectionViewController.h */,
 				433BD79C1A8F01D0008BACA5 /* TeamSelectionViewController.m */,
+				43AC15421A91737F0071319A /* TradeSetupViewController.h */,
+				43AC15431A91737F0071319A /* TradeSetupViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -141,6 +155,10 @@
 		433BD7991A8EF26B008BACA5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				43AC15481A91A27B0071319A /* TeamView.h */,
+				43AC15491A91A27B0071319A /* TeamView.m */,
+				43AC154B1A91B6DD0071319A /* TeamCell.h */,
+				43AC154C1A91B6DD0071319A /* TeamCell.m */,
 				433BD7811A8EF041008BACA5 /* LaunchScreen.xib */,
 				433BD7A11A8F0B16008BACA5 /* TeamCell.xib */,
 			);
@@ -150,6 +168,8 @@
 		433BD79A1A8EF270008BACA5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				43AC15451A91A0F80071319A /* MyModel.h */,
+				43AC15461A91A0F80071319A /* MyModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -256,10 +276,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				433BD79D1A8F01D0008BACA5 /* TeamSelectionViewController.m in Sources */,
+				43AC15471A91A0F80071319A /* MyModel.m in Sources */,
+				43AC15441A91737F0071319A /* TradeSetupViewController.m in Sources */,
 				433BD7751A8EF040008BACA5 /* AppDelegate.m in Sources */,
 				433BD7781A8EF040008BACA5 /* NBA_Trade_Machine.xcdatamodeld in Sources */,
 				433BD77B1A8EF040008BACA5 /* HomeViewController.m in Sources */,
 				433BD7721A8EF040008BACA5 /* main.m in Sources */,
+				43AC154A1A91A27B0071319A /* TeamView.m in Sources */,
+				43AC154D1A91B6DD0071319A /* TeamCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

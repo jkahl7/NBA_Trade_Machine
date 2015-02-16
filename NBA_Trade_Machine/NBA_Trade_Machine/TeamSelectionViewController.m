@@ -39,24 +39,20 @@
   return _numberOfTeamsSelected;
 }
 
--(NSArray *)teams
-{
-  if (_teams) _teams = [[NSMutableArray alloc] init];
-  return _teams;
-}
-
 
 - (void)viewDidLoad
 {
   [super viewDidLoad];
   self.collectionView.dataSource = self;
   self.collectionView.delegate   = self;
+  
+  self.teams = @[@"atlanta", @"boston", @"brookly", @"charlotte", @"chicago", @"cleveland", @"dallas", @"denver", @"detriot", @"goldenstate", @"houston", @"indiana", @"laclippers", @"lalakers", @"memphis", @"miami", @"milwaukee", @"minnesota", @"no", @"ny", @"okc", @"orlando", @"philadelphia", @"phoenix", @"portland", @"scramento", @"sanantonio", @"tornto", @"utah", @"washington"];
+
 }
 
 
-/* [@"atlanta", @"boston", @"brookly", @"charlotte", @"chicago", @"cleveland", @"dallas", @"denver", @"detriot", @"goldenstate", @"houston", @"indiana", @"laclippers", @"lalakers", @"memphis", @"miami", @"milwaukee", @"minnesota", @"no", @"ny", @"okc", @"orlando", @"philadelphia", @"phoenix", @"portland", @"scramento", @"sanantonio", @"tornto", @"utah", @"washington"];
 
-*/
+
 
 
 - (IBAction)selectedTeam0:(UIButton *)sender
