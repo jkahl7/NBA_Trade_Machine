@@ -17,10 +17,6 @@
 
 @implementation TradeSetupViewController
 
-
-
-
-
 - (void)viewDidLoad
 {
   [super viewDidLoad];
@@ -29,6 +25,21 @@
   self.allTeamsCollectionView.dataSource      = self;
   self.allTeamsCollectionView.delegate        = self;
 }
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+  //TODO: add actual data
+  return 1;
+}
+
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+  //TODO: add actual data
+  UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"CELL" forIndexPath:indexPath];
+  return cell;
+}
+
 
 
 @end

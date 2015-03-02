@@ -29,6 +29,7 @@
   self.teamImage.frame = self.bounds;
 }
 
+
 - (void)setTeamSelected:(BOOL)highlight
 {
   if (highlight)

@@ -17,10 +17,13 @@
 		433BD78F1A8EF041008BACA5 /* NBA_Trade_MachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BD78E1A8EF041008BACA5 /* NBA_Trade_MachineTests.m */; };
 		433BD79D1A8F01D0008BACA5 /* TeamSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 433BD79C1A8F01D0008BACA5 /* TeamSelectionViewController.m */; };
 		433BD7A21A8F0B16008BACA5 /* TeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 433BD7A11A8F0B16008BACA5 /* TeamCell.xib */; };
+		435743DC1A9939160044A7B6 /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 435743DB1A9939160044A7B6 /* NetworkController.m */; };
+		437613081AA4253B0035C036 /* DestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437613071AA4253B0035C036 /* DestinationViewController.m */; };
 		43AC15441A91737F0071319A /* TradeSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC15431A91737F0071319A /* TradeSetupViewController.m */; };
 		43AC15471A91A0F80071319A /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC15461A91A0F80071319A /* MyModel.m */; };
 		43AC154A1A91A27B0071319A /* TeamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC15491A91A27B0071319A /* TeamView.m */; };
 		43AC154D1A91B6DD0071319A /* TeamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC154C1A91B6DD0071319A /* TeamCell.m */; };
+		43AC15501A91BBA00071319A /* SourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC154F1A91BBA00071319A /* SourceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		433BD79B1A8F01D0008BACA5 /* TeamSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamSelectionViewController.h; sourceTree = "<group>"; };
 		433BD79C1A8F01D0008BACA5 /* TeamSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamSelectionViewController.m; sourceTree = "<group>"; };
 		433BD7A11A8F0B16008BACA5 /* TeamCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamCell.xib; sourceTree = "<group>"; };
+		435743DA1A9939160044A7B6 /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
+		435743DB1A9939160044A7B6 /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
+		437613061AA4253B0035C036 /* DestinationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationViewController.h; sourceTree = "<group>"; };
+		437613071AA4253B0035C036 /* DestinationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationViewController.m; sourceTree = "<group>"; };
 		43AC15421A91737F0071319A /* TradeSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeSetupViewController.h; sourceTree = "<group>"; };
 		43AC15431A91737F0071319A /* TradeSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeSetupViewController.m; sourceTree = "<group>"; };
 		43AC15451A91A0F80071319A /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
@@ -59,6 +66,8 @@
 		43AC15491A91A27B0071319A /* TeamView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamView.m; sourceTree = "<group>"; };
 		43AC154B1A91B6DD0071319A /* TeamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamCell.h; sourceTree = "<group>"; };
 		43AC154C1A91B6DD0071319A /* TeamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamCell.m; sourceTree = "<group>"; };
+		43AC154E1A91BBA00071319A /* SourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceViewController.h; sourceTree = "<group>"; };
+		43AC154F1A91BBA00071319A /* SourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,9 +151,15 @@
 		433BD7981A8EF264008BACA5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				435743DA1A9939160044A7B6 /* NetworkController.h */,
+				435743DB1A9939160044A7B6 /* NetworkController.m */,
 				433BD7791A8EF040008BACA5 /* HomeViewController.h */,
 				433BD77A1A8EF040008BACA5 /* HomeViewController.m */,
+				43AC154E1A91BBA00071319A /* SourceViewController.h */,
+				43AC154F1A91BBA00071319A /* SourceViewController.m */,
 				433BD79B1A8F01D0008BACA5 /* TeamSelectionViewController.h */,
+				437613061AA4253B0035C036 /* DestinationViewController.h */,
+				437613071AA4253B0035C036 /* DestinationViewController.m */,
 				433BD79C1A8F01D0008BACA5 /* TeamSelectionViewController.m */,
 				43AC15421A91737F0071319A /* TradeSetupViewController.h */,
 				43AC15431A91737F0071319A /* TradeSetupViewController.m */,
@@ -276,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				433BD79D1A8F01D0008BACA5 /* TeamSelectionViewController.m in Sources */,
+				43AC15501A91BBA00071319A /* SourceViewController.m in Sources */,
 				43AC15471A91A0F80071319A /* MyModel.m in Sources */,
 				43AC15441A91737F0071319A /* TradeSetupViewController.m in Sources */,
 				433BD7751A8EF040008BACA5 /* AppDelegate.m in Sources */,
@@ -283,7 +299,9 @@
 				433BD77B1A8EF040008BACA5 /* HomeViewController.m in Sources */,
 				433BD7721A8EF040008BACA5 /* main.m in Sources */,
 				43AC154A1A91A27B0071319A /* TeamView.m in Sources */,
+				435743DC1A9939160044A7B6 /* NetworkController.m in Sources */,
 				43AC154D1A91B6DD0071319A /* TeamCell.m in Sources */,
+				437613081AA4253B0035C036 /* DestinationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
